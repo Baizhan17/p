@@ -1,0 +1,228 @@
+body {
+}
+
+.btn {
+  justify-content: center;
+  text-align: center;
+  background-color: aquamarine;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 25px;
+  transition: transform 0.5s;
+}
+.btn:hover {
+  opacity: 0.4;
+  transform: scale(1.7);
+  cursor: pointer;
+}
+.clmain {
+  background-color: beige;
+}
+.footer {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(76, 54, 152, 1) 57%,
+    rgba(0, 255, 0, 1) 88%
+  );
+  text-align: center;
+  padding-top: 20px;
+  line-height: 142%;
+  position: relative;
+  bottom: 0;
+  font-family: "Shantell Sans";
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+a:hover {
+  color: #008c8c;
+  transition: 0.4s;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+.hero {
+  font-family: "Lobster";
+  height: 100vh;
+  width: 100%;
+  background-image: url(/img/12.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: wheat;
+}
+#i {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.logo {
+  color: white;
+  letter-spacing: 1;
+  font-size: 35px;
+}
+span {
+  color: #f9004d;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+.newslatter form {
+  width: 380px;
+  max-width: 100%;
+  position: relative;
+}
+.newslatter form input:first-child {
+  display: inline-block;
+  width: 100%;
+  padding: 14px 130px 14px 150px;
+  border: 2px solid #f9004d;
+  color: #eeeeee;
+  outline: none;
+  border-radius: 30px;
+}
+.newslatter form input:last-child {
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 30px;
+  margin: -40px 520px;
+  background-color: #f9004d;
+  color: white;
+  box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+}
+.about {
+  width: 100%;
+  padding: 0px 0px;
+  border-color: #191919;
+  background-image: url(/img/21.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#b667 {
+  margin-bottom: 50px;
+}
+#im {
+  height: 100%;
+  width: auto;
+  position: absolute;
+  left: 0;
+  margin-top: 93px;
+}
+.about-text {
+  width: 550px;
+}
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.about-text h2 {
+  color: white;
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.about-text h5 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+.about-text p {
+  color: #737373;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+.pra {
+  font-family: "Dancing Script";
+  font-size: 20px;
+  line-height: 20px;
+}
+.service {
+  background: #eeeeee;
+  width: 100%;
+  padding: 100px 0px;
+}
+.title h2 {
+  font-size: 75px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+}
+.box {
+  margin-left: 30px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+.card {
+  height: 393px;
+  width: 335px;
+  padding: 20px 35px;
+  background: white;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.card .btn:hover {
+  border-color: transparent;
+  border: 2px solid #f9004d;
+}
+.experience {
+  display: inline-flex;
+  margin: 40px 200px;
+}
+.b1 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 0px;
+  background-color: #eeeeee;
+  width: 250px;
+}
+.b1 p {
+  font-size: 60px;
+}
+.skills {
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  display: inline-block;
+}
+.skills img {
+  margin-left: 280px;
+}
+.cs {
+  font-size: 70px;
+  text-align: center;
+}
